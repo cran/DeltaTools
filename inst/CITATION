@@ -1,0 +1,12 @@
+bibentry(
+  bibtype = "Manual",
+  title = "DeltaTools: DELTA Analytic Tools and Learning Curve Analysis",
+  author = c(
+    person("Michael", "Matheny"),
+    person("Frederic", "Resnic"),
+    person("Henry", "Ssemaganda"),
+    person("Jejo", "Koola"),
+    person("Amy", "Perkins")
+  ),
+  year = "2026"
+)

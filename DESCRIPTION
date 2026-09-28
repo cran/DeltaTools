@@ -1,0 +1,50 @@
+Package: DeltaTools
+Title: DELTA Analytic Tools and Learning Curve Analysis
+Version: 0.1.4
+Authors@R: c(
+    person("Michael", "Matheny", email = "michael.matheny@vumc.org", role = c("aut", "cph"),
+           comment = c(ORCID = "0000-0003-3217-4147")),
+    person("Frederic", "Resnic", email = "frederic.resnic@lahey.org", role = c("aut", "cph"),
+           comment = c(ORCID = "0000-0002-4105-4529")),
+    person("Henry", "Ssemaganda", email = "semahen@gmail.com", role = c("aut", "cph"),
+           comment = c(ORCID = "0009-0001-2877-3465")),
+    person("Jejo", "Koola", email = "jkoola@health.ucsd.edu", role = c("aut", "cph"),
+           comment = c(ORCID = "0000-0001-5171-8475")),
+    person("Amy", "Perkins", email = "amy.perkins@vumc.org", role = c("aut", "cph", "cre"),
+           comment = c(ORCID = "0000-0001-9052-3558"))
+    )
+Description: A collection of tools for researchers interested in carrying out
+    parametric estimation of learning curves and device effects based on
+    the publication by Ssemaganda et al. (2025) <doi:10.2147/MDER.S520191>
+    with modified versions of propensity score matching (PSM) and
+    inverse probability of treatment weighting (IPTW).
+License: GPL-2 | GPL-3
+Encoding: UTF-8
+RoxygenNote: 8.0.0
+Imports: broom (>= 1.0.12), caret (>= 7.0-1), data.table (>= 1.18.4),
+        DescTools (>= 0.99.60), dplyr (>= 1.2.1), gbm (>= 2.2.3),
+        ggplot2 (>= 4.0.3), glmnet (>= 5.0), ldbounds (>= 2.0.2),
+        lmtest (>= 0.9-40), MatchIt (>= 4.7.2), methods, mgcv (>=
+        1.9-4), minpack.lm (>= 1.2-4), parameters (>= 0.28.3), plotly
+        (>= 4.12.0), pROC (>= 1.19.0.1), ResourceSelection (>= 0.3-6),
+        rms (>= 8.1-1), ROCR (>= 1.0-12), sjPlot (>= 2.9.0), stats,
+        stringr (>= 1.6.0), tableone (>= 0.13.2), twang (>= 2.6.2)
+Suggests: kableExtra (>= 1.4.0), knitr (>= 1.51), rmarkdown (>= 2.31),
+        testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: R (>= 3.5.0)
+LazyData: true
+NeedsCompilation: no
+Packaged: 2026-09-17 19:59:04 UTC; amyperkins
+Author: Michael Matheny [aut, cph] (ORCID:
+    <https://orcid.org/0000-0003-3217-4147>),
+  Frederic Resnic [aut, cph] (ORCID:
+    <https://orcid.org/0000-0002-4105-4529>),
+  Henry Ssemaganda [aut, cph] (ORCID:
+    <https://orcid.org/0009-0001-2877-3465>),
+  Jejo Koola [aut, cph] (ORCID: <https://orcid.org/0000-0001-5171-8475>),
+  Amy Perkins [aut, cph, cre] (ORCID:
+    <https://orcid.org/0000-0001-9052-3558>)
+Maintainer: Amy Perkins <amy.perkins@vumc.org>
+Repository: CRAN
+Date/Publication: 2026-09-28 08:40:19 UTC
